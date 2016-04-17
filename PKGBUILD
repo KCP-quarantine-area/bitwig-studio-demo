@@ -1,15 +1,11 @@
 pkgname='bitwig-studio-demo'
-pkgver='1.3.8'
+pkgver='1.3.9'
 pkgrel='1'
 pkgdesc='Music production system for production, remixing and performance'
 arch=('x86_64')
 url='http://www.bitwig.com/'
 license=('custom')
-# This list is not anywhere near what it should be and misses a lot of package
-# names. If you find yourself in a situation where you are missing something,
-# please tell us in the README
 depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg')
-conflicts=('bitwig-studio-demo-rc')
 options=(!strip)
 source=("https://downloads.bitwig.com/stable/${pkgver}/bitwig-studio-${pkgver}.deb"
         'bitwig-studio.launcher')
