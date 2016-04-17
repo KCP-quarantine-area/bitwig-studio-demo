@@ -9,7 +9,6 @@ license=('custom')
 # names. If you find yourself in a situation where you are missing something,
 # please tell us in the README
 depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg')
-provides=('bitwig-studio')
 conflicts=('bitwig-studio-demo-rc')
 options=(!strip)
 source=("https://downloads.bitwig.com/stable/${pkgver}/bitwig-studio-${pkgver}.deb"
