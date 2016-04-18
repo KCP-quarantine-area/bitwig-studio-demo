@@ -9,7 +9,7 @@ depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss'
 options=(!strip)
 source=("https://downloads.bitwig.com/stable/${pkgver}/bitwig-studio-${pkgver}.deb"
         'bitwig-studio.launcher')
-md5sums=('062f57caa81af1e1168680f24ec12370'
+md5sums=('284d1f5ac35553735f7247a383308659'
          '32411d3b742f15addef7b86681825fee')
 
 package() {
