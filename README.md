@@ -8,6 +8,6 @@ Digital Audio Workstation:
 
 http://www.bitwig.com/en/bitwig-studio.html
 
-This is a demo, so the save and export features are disabled. :)
+This is a demo, so the save/export feature is disabled and some additional sound packages are not available :)
 
 The rest is fully useable !
