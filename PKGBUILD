@@ -5,7 +5,7 @@ pkgdesc='Music production system for production, remixing and performance'
 arch=('x86_64')
 url='http://www.bitwig.com/'
 license=('custom')
-depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg')
+depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg' 'qjackctl')
 options=(!strip)
 source=("https://downloads.bitwig.com/stable/${pkgver}/bitwig-studio-${pkgver}.deb"
         'bitwig-studio.launcher')
