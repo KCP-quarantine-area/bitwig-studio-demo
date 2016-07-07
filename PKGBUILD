@@ -1,11 +1,11 @@
 pkgname='bitwig-studio-demo'
-pkgver='1.3.9'
+pkgver='1.3.11'
 pkgrel='1'
 pkgdesc='Music production system for production, remixing and performance'
 arch=('x86_64')
 url='http://www.bitwig.com/'
 license=('custom')
-depends=('jack' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg' 'qjackctl')
+depends=('jack2' 'xdg-utils' 'qarma' 'xcb-util-wm' 'libbsd' 'alsa-lib' 'alsa-oss' 'ffmpeg' 'qjackctl')
 options=(!strip)
 source=("https://downloads.bitwig.com/stable/${pkgver}/bitwig-studio-${pkgver}.deb"
         'bitwig-studio.launcher')
