@@ -1,13 +1,12 @@
 # bitwig-studio-demo
 
-Please install qarma first (from KCP)
+Digital Audio Workstation
+
+
+This is a demo, so the save/export feature is disabled and some additional sound packages are not available, until you pay for the full version. :)
+
+Installation:
 
 kcp -i qarma
 
-Digital Audio Workstation:
-
-http://www.bitwig.com/en/bitwig-studio.html
-
-This is a demo, so the save/export feature is disabled and some additional sound packages are not available :)
-
-The rest is fully useable !
+makepkg -si https://raw.githubusercontent.com/KCP-quarantine-area/bitwig-studio-demo/master/PKGBUILD
